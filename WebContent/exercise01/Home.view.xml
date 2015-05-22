@@ -1,0 +1,15 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="exercise01.Home" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+			<Text id="name" text="{employeeModel>/name}" />
+			<Text id="company" text="{employeeModel>/company}" />
+			<Text id="contact" text="{employeeModel>/contact}" />
+			<Button text="update" press="updateJSONData"/>
+			<Button id="alertButton" text="Alert"
+			    press="displayAlert"
+			    />
+			
+		</content>
+	</Page>
+</core:View>
